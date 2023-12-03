@@ -43,10 +43,10 @@ function textSizeZoomed(n) {
 
 //preloads the sound and images
 function preload(){
-    backgroundSound = loadSound('https://francistr.github.io/p5.js-AudioVisualizer/sounds/Dreams.mp3');
-    img.push(loadImage('https://francistr.github.io/p5.js-AudioVisualizer/images/sonic.png'));
-    img.push(loadImage('https://francistr.github.io/p5.js-AudioVisualizer/images/tails.jpg'));
-    img.push(loadImage('https://francistr.github.io/p5.js-AudioVisualizer/images/amy.png'));
+    backgroundSound = loadSound('/p5.js-AudioVisualizer/sounds/Dreams.mp3');
+    img.push(loadImage('/p5.js-AudioVisualizer/images/sonic.png'));
+    img.push(loadImage('/p5.js-AudioVisualizer/images/tails.jpg'));
+    img.push(loadImage('/p5.js-AudioVisualizer/images/amy.png'));
 }
 
 
